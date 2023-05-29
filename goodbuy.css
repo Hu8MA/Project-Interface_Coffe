@@ -1,0 +1,73 @@
+*{
+    --first_colore:#212426;
+    --second_colore:#383D40;
+    --theard_colore:#666E73;
+    --four_colore:#BFBFBF;
+    --five_colore:#F2F2F2;
+    --six_colore:#D9A679;
+    --seven_colore:#A67449;
+    --egith_colore:#0D0D0D;
+    box-sizing: border-box;
+
+}
+p::selection{
+    background-color: var(--seven_colore);
+    color:var(--second_colore);
+}
+label::selection{
+    background-color: var(--seven_colore);
+    color:var(--second_colore);
+}
+:empty::selection{
+    background-color: var(--first_colore);
+}
+
+button::selection{
+    background-color: var(--seven_colore);
+    color:var(--second_colore);
+}
+body{
+    background-color: var( --second_colore);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-left: 5px;
+   
+}
+.pareant{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.div{
+    margin-top: 100px;
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div p{
+    color: var(--five_colore);
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 0 0 10px var(--six_colore);
+}
+.div span{
+    color: var(--five_colore);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 0 0 10px var(--six_colore);
+}
+#time{
+    color: var(--five_colore);
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 0 0 10px var(--six_colore);
+
+}

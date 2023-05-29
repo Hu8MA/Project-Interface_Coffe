@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+     <link rel="stylesheet" href="buy-coffee.css">
+
+ </head>
+
+ <body>
+    <div class="navTop">
+
+        <div class="div1">
+          <button class="button" id="namepage">buy coffee</button>
+          <button class="button" onclick="goto_main_page3()" id="main_page">Main Page</button> 
+          <button class="button"  id="buy">Buy</button> 
+          <button class="button" onclick="goto_about_page3()" id="about">about</button> 
+        </div>
+
+
+        <div class="div2">
+          <button class="button" onclick="goto_loginpage()">login</button> 
+        </div>
+
+  </div>
+
+     <hr style=" width: 95%; margin-bottom: 50px;">
+       
+     <p id="p1">Buy cup</p>
+
+     <hr style="width: 26%; margin-bottom: 70px;">
+   
+   
+        <div class="parent1">
+
+          
+          <div class="parent-for-div">
+
+           
+
+           
+           
+           
+            <form action="company_page.html" method="post" class="input">
+
+
+
+          
+
+            
+
+              <div class="desgin-input">
+                <label for="i1">Your name</label> <input type="text" id="i1" required/>
+
+              </div>
+
+              <div class="desgin-input">
+                <label for="i2">Name the coffee</label> 
+                <select id="i2">
+
+                   <option value="Black Coffee">Black Coffee</option>
+                   <option value="Turkish Coffee">Turkish Coffeee</option>
+                   <option value="Cold Brew">Cold Brew</option>
+                   <option value="Iced Coffee">Iced Coffee</option>
+                   <option value="Doppio Coffee">Doppio Coffee</option>
+                   <option value="Americano Coffee">Americano Coffee</option>
+                   <option value="Lungo Coffee">Lungo Coffee</option>
+
+                   <option value="Cream Coffee">Cream Coffee</option>
+                   <option value="Cafe Cubano">Cafe Cubano</option>
+                   <option value="Cappuccino">Cappuccino</option>
+
+                   <option value="Piccolo Latte">Piccolo Latte</option>
+                   <option value="Macchiato">Macchiato</option>
+                   <option value="Café Bombon">Café Bombon</option>
+
+                   <option value="Cafe Con Leche">Cafe Con Leche</option>
+                   <option value="Espresso Romano">Espresso Romano</option>
+
+                </select>
+
+              </div>
+              <div class="desgin-input">
+                <label for="i5">Name city</label> 
+                <select id="i5">
+
+                   <option value="Babylon">Babylon</option>
+                   <option value="Baghdad">Baghdad</option>
+                   <option value="Najaf">Najaf</option>
+                   <option value="Karbala">Karbala</option>
+                  
+                </select>
+
+              </div>
+
+
+              <div class="desgin-input">
+                <label for="i3">cup price </label>
+                <select id="i3">
+                  <option value="2 $">2 $</option>
+                  <option value="6 $">6 $</option>
+                  <option value="8 $">8 $</option>
+                  <option value="10">10 $</option>
+                 
+
+                </select>
+
+              </div>
+              <div class="desgin-input">
+                <label for="i4">Number of cup</label><input type="number" id="i4" max="10" min="1"required title="you can buy 1-10  cub"/>
+
+              </div>
+              
+              <div class="desgin-input" >
+                <label for="i6">Phone Number</label><input type="number"  id="i6" maxlength="11" minlength="11" required title="input the Phone number" value="07" />
+
+              </div>
+             
+
+            </div>
+          </div>
+
+        
+          
+
+        </div>
+        <div class="parent2">
+
+          <div class="desgin-input2">
+            <input type="submit" value="Buy">
+            <input type="reset" value="clear">
+          </div>
+         
+
+        
+
+        </form>
+
+         <script src="buy-coffee.js"></script>
+        
+ </body>
+
+</html>
